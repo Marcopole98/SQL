@@ -37,7 +37,7 @@ ORDER BY price desc;
 #Show a statistic about the item prices.
 SELECT avg(price)
 FROM superstore;
-order by average_rating;
+ORDER BY average_rating;
 
 #Show a statistic about the average price of the items of category 'Kitchen Supplies'.
 SELECT avg(price)
